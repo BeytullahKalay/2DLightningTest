@@ -13,6 +13,7 @@ public class DayAndNightController : MonoBehaviour
 	[SerializeField] private float switchNightProgressDuration = 3;
 	[SerializeField] private Color seaNightColor;
 	[SerializeField] private Volume nighVolume;
+	[SerializeField] private Light2D globalLight;
 
 	private void Awake()
 	{
@@ -26,7 +27,6 @@ public class DayAndNightController : MonoBehaviour
 		}
 	}
 
-
 	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Space))
@@ -38,6 +38,8 @@ public class DayAndNightController : MonoBehaviour
 				DOVirtual.Float(0, 1, switchNightProgressDuration, t =>
 				{
 					nighVolume.weight = t;
+					globalLight.intensity = 1 - t / 2;
+
 
 
 					if (!IsNight && t >= .85f)

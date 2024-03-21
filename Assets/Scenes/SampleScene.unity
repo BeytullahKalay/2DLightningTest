@@ -278,6 +278,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &63742625
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -423,6 +424,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &75041361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3105,6 +3107,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &250722962
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3998,7 +4001,7 @@ Transform:
   m_GameObject: {fileID: 482366893}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: -1.78, z: 0}
+  m_LocalPosition: {x: 1.39, y: -1.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4298,6 +4301,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &621460634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4427,6 +4431,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &644771670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4650,6 +4655,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &659213817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6307,6 +6313,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &809298236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6452,6 +6459,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &816829736
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6628,6 +6636,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &834024982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6856,6 +6865,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!1 &902582774
 GameObject:
   m_ObjectHideFlags: 0
@@ -7062,6 +7072,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &936026322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8158,7 +8169,7 @@ Tilemap:
       - {fileID: -258316200, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: 1558386341, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: -548963385, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -5, y: -6, z: 0}
@@ -8428,7 +8439,7 @@ Tilemap:
       - {fileID: -258316200, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: 1558386341, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: -548963385, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -6, y: -5, z: 0}
@@ -8503,7 +8514,7 @@ Tilemap:
       - {fileID: -258316200, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: 1558386341, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: -548963385, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: -5, z: 0}
@@ -8863,7 +8874,7 @@ Tilemap:
       - {fileID: -258316200, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: 1558386341, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
       - {fileID: -548963385, guid: 26fe335c8c39ccf47b43bce30632aa76, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -6, y: 3, z: 0}
@@ -9684,6 +9695,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1097622496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9860,6 +9872,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1207377685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10479,6 +10492,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1349587597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10693,6 +10707,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1454777066
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10838,6 +10853,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1462139578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10982,8 +10998,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchNightProgressDuration: 2
-  seaNightColor: {r: 0.018378438, g: 0.5566038, b: 0.5346851, a: 1}
+  seaNightColor: {r: 0.21933961, g: 0.5, b: 0.4943868, a: 1}
   nighVolume: {fileID: 787689661}
+  globalLight: {fileID: 902582775}
 --- !u!4 &1587175642
 Transform:
   m_ObjectHideFlags: 0
@@ -11123,6 +11140,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1645039923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11268,6 +11286,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1660394242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11413,6 +11432,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1696409021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11589,6 +11609,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1859708301
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11734,6 +11755,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1889633365
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11879,6 +11901,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 0
 --- !u!212 &1922949986
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11956,7 +11979,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938329779}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 155bc7d3504e0da49aebdb6102b6fb7e, type: 3}
   m_Name: 
@@ -12008,6 +12031,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  getThinnerOnSides: 1
 --- !u!212 &1938329781
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12048,7 +12072,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: b4ba227058ff98340b1c9c6a61cfc057, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12059,7 +12083,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1938329782
 Transform:
   m_ObjectHideFlags: 0
@@ -12069,7 +12093,7 @@ Transform:
   m_GameObject: {fileID: 1938329779}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.39, y: -0.5, z: -0.32102123}
+  m_LocalPosition: {x: 1.39, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12101,7 +12125,7 @@ Transform:
   m_GameObject: {fileID: 1968933507}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12159,7 +12183,7 @@ MonoBehaviour:
   m_Intensity: 5.43
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: bb5e3a1400000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
